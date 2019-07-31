@@ -1,0 +1,172 @@
+/*
+ * @Front-end authors
+ *
+ * - Leu Almeida
+ *
+*/
+
+.d-none{display: none;}
+
+#centenario{background: url(../img/logos/centenario-b.png) no-repeat center;transition: 0.3s;background-size:  150px;width:auto;height: 100px;background-position-y: 18px;}
+#centenario:hover{background: url(../img/logos/centenario.png) no-repeat center;background-size: 150px;width:auto;height: 100px;background-position-y: 18px;}
+
+#ie{background: url(../img/logos/ie-b.png) no-repeat center;transition: 0.3s;background-size:  150px;width:auto;height: 100px;background-position-y: 10px;}
+#ie:hover{background: url(../img/logos/ie.png) no-repeat center;background-size: 150px;width:auto;height: 100px;background-position-y: 10px;}
+
+#unimep{background: url(../img/logos/unimep-b.png) no-repeat center;transition: 0.3s;background-size: 150px;width:auto;height: 100px;background-position-y: 10px;}
+#unimep:hover{background: url(../img/logos/unimep.png) no-repeat center;background-size: 150px;width:auto;height: 100px;background-position-y: 10px;}
+
+#ipa{background: url(../img/logos/ipa-b.png) no-repeat center;transition: 0.3s;background-size: 150px;width:auto;height: 100px;background-position-y: 10px;}
+#ipa:hover{background: url(../img/logos/ipa.png) no-repeat center;background-size: 150px;width:auto;height: 100px;background-position-y: 10px;}
+
+#izabela{background: url(../img/logos/izabela-b.png) no-repeat center;transition: 0.3s;background-size: 130px;width:auto;height: 100px;background-position-y: 6px;}
+#izabela:hover{background: url(../img/logos/izabela.png) no-repeat center;background-size: 130px;width:auto;height: 100px;background-position-y: 6px;}
+
+#granbery{background: url(../img/logos/granbery-b.png) no-repeat center;transition: 0.3s;background-size: 130px;width:auto;height: 100px;background-position-y: 10px;}
+#granbery:hover{background: url(../img/logos/granbery.png) no-repeat center;background-size: 130px;width:auto;height: 100px;background-position-y: 10px;}
+
+#umesp{background: url(../img/logos/umesp-b.png) no-repeat center;transition: 0.3s;background-size: 130px;width:auto;height: 100px;background-position-y: 10px;}
+#umesp:hover{background: url(../img/logos/umesp.png) no-repeat center;background-size: 130px;width:auto;height: 100px;background-position-y: 10px;}
+
+a.certificado-2.animated.fadeInDown {
+  color: #fff !important;
+}
+
+div#certificado-de-relatorios {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* a.ng-binding:before {
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;  
+  content: "\f1cd";
+} */
+
+.certificado{
+  background-color: #f1f1f1e3;
+  color: #143f70 !important;
+  padding: 10px;
+  font-weight: 500;
+  /* box-shadow: 0 0 11px 0px #000000a6; */
+  border-radius: 5px;
+  text-align: center;
+  max-width: 340px !important;
+}
+
+.certificado:hover{
+  background-color: #f1f1f1b3;
+  box-shadow: 0 0 11px 0px #000000a6;
+  text-decoration: none;
+  transition:0.3s;
+}
+
+.ie-footer{
+  background:#7f93ab66;
+  position:fixed;
+  bottom:0%;
+  width:100%;
+  text-align:center;
+  height: 60px;
+}
+
+.ie-footer-2{
+  background:#7f93ab66;
+  position:fixed;
+  padding-top: 15px;
+  bottom:0%;
+  width:100%;
+  text-align:right;
+  height: 60px;
+}
+
+.ie-footer-2:hover{
+  text-decoration: none;
+  
+}
+  .ie-footer:hover{
+  background:#c5c5c566;
+  transition: 0.3s;
+} 
+
+.logo {
+    padding-top: 25px !important;
+  }
+
+@media only screen and (max-width: 1199px) {
+    #centenario{background: url(../img/logos/centenario-b.png) no-repeat center;transition: 0.3s;background-size:  120px;width:auto;height: 100px;background-position-y: 18px;}
+    #centenario:hover{background: url(../img/logos/centenario.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 10px;}
+
+    #unimep{background: url(../img/logos/unimep-b.png) no-repeat center;transition: 0.3s;background-size: 120px;width:auto;height: 100px;background-position-y: 12px;}
+    #unimep:hover{background: url(../img/logos/unimep.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #ipa{background: url(../img/logos/ipa-b.png) no-repeat center;transition: 0.3s;background-size: 120px;width:auto;height: 100px;background-position-y: 12px;}
+    #ipa:hover{background: url(../img/logos/ipa.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #izabela{background: url(../img/logos/izabela-b.png) no-repeat center;transition: 0.3s;background-size: 100px;width:auto;height: 100px;background-position-y: 8px;}
+    #izabela:hover{background: url(../img/logos/izabela.png) no-repeat center;background-size: 100px;width:auto;height: 100px;background-position-y: 0px;}
+
+    #granbery{background: url(../img/logos/granbery-b.png) no-repeat center;transition: 0.3s;background-size: 100px;width:auto;height: 100px;background-position-y: 12px;}
+    #granbery:hover{background: url(../img/logos/granbery.png) no-repeat center;background-size: 100px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #umesp{background: url(../img/logos/umesp-b.png) no-repeat center;transition: 0.3s;background-size: 100px;width:auto;height: 100px;background-position-y: 12px;}
+    #umesp:hover{background: url(../img/logos/umesp.png) no-repeat center;background-size: 100px;width:auto;height: 100px;background-position-y: 4px;}
+    }
+
+
+
+
+@media only screen and (max-width: 991px) {
+    #centenario{background: url(../img/logos/centenario-b.png) no-repeat center;transition: 0.3s;background-size:  80px;width:auto;height: 100px;background-position-y: 18px;}
+    #centenario:hover{background: url(../img/logos/centenario.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 10px;}
+
+    #unimep{background: url(../img/logos/unimep-b.png) no-repeat center;transition: 0.3s;background-size: 80px;width:auto;height: 100px;background-position-y: 12px;}
+    #unimep:hover{background: url(../img/logos/unimep.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #ipa{background: url(../img/logos/ipa-b.png) no-repeat center;transition: 0.3s;background-size: 80px;width:auto;height: 100px;background-position-y: 12px;}
+    #ipa:hover{background: url(../img/logos/ipa.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #izabela{background: url(../img/logos/izabela-b.png) no-repeat center;transition: 0.3s;background-size: 60px;width:auto;height: 100px;background-position-y: 8px;}
+    #izabela:hover{background: url(../img/logos/izabela.png) no-repeat center;background-size: 60px;width:auto;height: 100px;background-position-y: 0px;}
+
+    #granbery{background: url(../img/logos/granbery-b.png) no-repeat center;transition: 0.3s;background-size: 60px;width:auto;height: 100px;background-position-y: 12px;}
+    #granbery:hover{background: url(../img/logos/granbery.png) no-repeat center;background-size: 60px;width:auto;height: 100px;background-position-y: 4px;}
+
+    #umesp{background: url(../img/logos/umesp-b.png) no-repeat center;transition: 0.3s;background-size: 60px;width:auto;height: 100px;background-position-y: 12px;}
+    #umesp:hover{background: url(../img/logos/umesp.png) no-repeat center;background-size: 60px;width:auto;height: 100px;background-position-y: 4px;}
+
+    .ie-footer {
+        height: 40px;
+    }
+
+    }
+
+
+@media only screen and (max-width: 767px) {
+    #centenario{display: none;}
+    #unimep{display: none;}
+    #ipa{display: none;}
+    #izabela{display: none;}
+    #granbery{display: none;}
+    #umesp{display: none;}
+    .ie-footer {display: none;}
+    
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .ie-footer{
+        height: 50px;
+      }
+
+    .logo {
+        padding-top: 15% !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo {
+        padding-top: 3% !important;
+    }
+}

@@ -1,0 +1,2566 @@
+/*
+
+ * CSS com estilo específico do tema
+ *
+ * @Front-end authors
+ *
+ * - Léu Almeida
+ *
+*/
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/*Cores legenda*/
+/*verde*/
+/*verde-2*/
+/*vermelho*/
+/*azul*/
+/*laranja*/
+/*cinza*/
+/*amarelo*/
+/*azul-2*/
+/*Cabeçalho tabelas*/
+/*Azul Portal*/
+/*REMOVER AO TÉRMINO DO PROJETO*/
+.total-height > .total-height > .menu-block > .img-logo > .img-logo {
+  width: 100% !important;
+  margin-top: 45px !important;
+}
+@media (max-width: 991px) {
+  #menu-header .header-item {
+    padding: 10px 5px !important;
+  }
+}
+@media (min-width: 768px) {
+  #menu-header .header-item {
+    padding: 10px 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .label-subtitulo .ng-pristine {
+    width: 50%;
+    /*Ajusta combo de disciplinas*/
+  }
+}
+#menu-contents .iframe-hide {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#menu-contents .iframe-show {
+  visibility: visible;
+  height: 100%;
+}
+#menu-desktop {
+  padding-top: 10px;
+}
+@media (max-width: 991px) {
+  #menu-desktop .menu-block {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 767px) {
+  #menu-lateral {
+    height: 100%;
+  }
+}
+#menu-structure {
+  height: calc(100% - 180px);
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0 !important;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  #menu-structure {
+    height: calc(100% - 10px);
+  }
+}
+#menu-applications {
+  height: calc(100% -  120px);
+  overflow: hidden;
+  /*overflow-y: auto;*/
+}
+#menu-content {
+  height: calc(100% - 10px);
+  margin: 0 10px;
+}
+*:focus {
+  outline: 0 !important;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif !important;
+  /*font-size: 12px;*/
+  color: #666666;
+}
+.page-edit-actions,
+.page-detail-actions {
+  margin-left: 9px;
+}
+@font-face {
+  font-family: 'feather-totvs-edu-ux';
+  src: url('../fonts/feather-totvs-edu-ux.eot?bez197');
+  src: url('../fonts/feather-totvs-edu-ux.eot?bez197#iefix') format('embedded-opentype'), url('../fonts/feather-totvs-edu-ux.ttf?bez197') format('truetype'), url('../fonts/feather-totvs-edu-ux.woff?bez197') format('woff'), url('../fonts/feather-totvs-edu-ux.svg?bez197#feather-totvs-edu-ux') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="ico-"],
+[class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'feather-totvs-edu-ux' !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 2rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.k-grid-content a {
+  cursor: pointer;
+}
+.modal-backdrop {
+  min-height: 100%;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  min-height: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+.panel {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.no-gutter > [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.clickable {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.non-selectable {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#menu-header {
+  border-bottom: none;
+  height: 40px;
+  z-index: 998;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+#menu-contents {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  padding-top: 0;
+  min-height: 100%;
+}
+#subheader {
+  z-index: 9;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  padding-top: 5px;
+  height: 65px;
+  border-bottom: 1px solid #ebebeb;
+}
+#subheader > .pull-left {
+  margin-left: 1rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#subheader > .pull-left > .ng-isolate-scope > .media-object {
+  max-height: 60px !important;
+}
+#subheader > .pull-right > ul:first-child > li > a > span.glyphicon-question-sign {
+  position: absolute;
+  left: -9999px;
+}
+#subheader .hot-links {
+  margin: 6px 10px 0 10px;
+  padding-top: 4px;
+  text-align: center;
+}
+#subheader .hot-links {
+  cursor: pointer;
+  margin: 6px 10px 0 10px;
+  padding-top: 4px;
+  text-align: center;
+}
+#subheader .edit-font {
+  cursor: pointer;
+  margin: 6px 10px 0 10px;
+  padding-top: 4px;
+  text-align: center;
+}
+.hotlink {
+  font-size: 1.4rem;
+}
+.btn-nav-tabs-config-active {
+  border-color: none;
+}
+/*Ajustes botões cabeçalho conteúdo*/
+.pageHeader.ocorrencias .row .btn-default.ng-binding {
+  margin-top: -10px;
+  right: 100px !important;
+}
+.pageHeader .row .btn-default.ng-binding {
+  float: right;
+  margin-top: -10px;
+  right: 10px !important;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 5px auto transparent !important;
+}
+.pageHeader .glyphicon-question-sign {
+  margin-right: 10px;
+  font-size: 23px;
+  float: left;
+  padding-top: 4px;
+  color: #216f7d;
+}
+.modal-title h3 span {
+  font-size: 2rem;
+}
+.modal-content {
+  border-radius: 0 !important;
+  box-shadow: 0 !important;
+  -webkit-box-shadow: 0 !important;
+}
+.item-field label,
+span {
+  font-size: 1.4rem;
+}
+.totvs-style-guide > .page-head,
+.page-fixed > .page-head,
+.page-wrapper > .page-head,
+.totvs-style-guide .page-head:after,
+.page-fixed .page-head:after,
+.page-wrapper .page-head:after {
+  border: none;
+  background: none;
+  box-shadow: none !important;
+  margin-left: 15px;
+}
+.totvs-style-guide > .page-content,
+.page-fixed > .page-content,
+.page-wrapper > .page-content {
+  border: none;
+  background: none;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend {
+  /*estrutura notas, faltas*/
+  padding-top: 25px;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope {
+  border: none !important;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row {
+  width: 50%;
+  margin-left: 5px;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row > div > .page-tags > .legend,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row > div > .page-tags > .legend,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .align-legend > .ng-scope > .row > div > .page-tags > .legend {
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content {
+  /*remove lines nas grids*/
+  border: none !important;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grouping-header,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grouping-header,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grouping-header {
+  background-color: #e4e4e4;
+  padding: 5px 5px 5px 15px;
+  border-radius: none;
+  color: #666666;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header {
+  padding-right: 0 !important;
+}
+.totvs-style-guide > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header > .k-grid-header-wrap,
+.page-fixed > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header > .k-grid-header-wrap,
+.page-wrapper > .page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .page-content > div > .k-grid > .k-grid-header > .k-grid-header-wrap {
+  margin: 0 !important;
+}
+.totvs-style-guide > .page-content > .page-content-header,
+.page-fixed > .page-content > .page-content-header,
+.page-wrapper > .page-content > .page-content-header {
+  border: none;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .form-group,
+.page-fixed > .page-content > .page-content-header > span > .form-group,
+.page-wrapper > .page-content > .page-content-header > span > .form-group {
+  margin-left: 5px;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .form-group > div,
+.page-fixed > .page-content > .page-content-header > span > .form-group > div,
+.page-wrapper > .page-content > .page-content-header > span > .form-group > div {
+  margin-top: 10px;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .form-group > div > .ng-binding,
+.page-fixed > .page-content > .page-content-header > span > .form-group > div > .ng-binding,
+.page-wrapper > .page-content > .page-content-header > span > .form-group > div > .ng-binding {
+  width: auto;
+  font-size: medium;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group,
+.page-fixed > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group,
+.page-wrapper > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group {
+  margin: -17px 0 0 8px;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group > select,
+.page-fixed > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group > select,
+.page-wrapper > .page-content > .page-content-header > span > .form-group > div > .ng-valid-parse > .ng-scope > .field-container > .field-input > .input-group > select {
+  width: auto;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .align-legend,
+.page-fixed > .page-content > .page-content-header > span > .align-legend,
+.page-wrapper > .page-content > .page-content-header > span > .align-legend {
+  /*estrutura calendario*/
+  padding-top: 25px;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .align-legend > .ng-scope:first-child > .row,
+.page-fixed > .page-content > .page-content-header > span > .align-legend > .ng-scope:first-child > .row,
+.page-wrapper > .page-content > .page-content-header > span > .align-legend > .ng-scope:first-child > .row {
+  width: 50%;
+  margin-left: 5px;
+}
+.totvs-style-guide > .page-content > .page-content-header > span > .align-legend > .ng-scope:nth-child(2) > .row,
+.page-fixed > .page-content > .page-content-header > span > .align-legend > .ng-scope:nth-child(2) > .row,
+.page-wrapper > .page-content > .page-content-header > span > .align-legend > .ng-scope:nth-child(2) > .row {
+  width: 50%;
+  float: right;
+  margin-top: -100px;
+}
+.field-container .input-group-btn {
+  padding-left: 8px;
+}
+.k-widget .panel-default {
+  border: none !important;
+}
+hr.divider {
+  display: none;
+}
+.page-head .page-tags {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+.k-button,
+.k-widget {
+  box-shadow: none !important;
+}
+.page-content {
+  border: 0 !important;
+}
+.media-object.img-thumbnail {
+  max-width: 100% !important;
+}
+.panel-group .panel {
+  line-height: 2em;
+}
+.wizard-title {
+  color: #fff;
+  text-align: center;
+}
+.wizard {
+  position: relative;
+  padding: 0;
+}
+.wizard:before {
+  content: "";
+  border-top: 2px solid #a3b1b3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 100px);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 40px;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+}
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 0;
+}
+.steps .step {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.steps .step .circle {
+  z-index: 2;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #a3b1b3;
+  font-size: 12px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.steps .step p {
+  margin-top: 10px;
+  text-align: center;
+  color: #a3b1b3;
+}
+.wizard-title .steps .step .circle {
+  background-color: #fff;
+  border: 2px solid #a3b1b3;
+}
+.wizard-title .steps .step.inactive .circle {
+  background-color: #a3b1b3;
+  color: #fff;
+  cursor: not-allowed;
+}
+.wizard-title .steps .step.done .circle {
+  background-color: #42ad2d;
+  color: #fff;
+  cursor: pointer;
+}
+.wizard-title .steps .step.active .circle {
+  border: 3px solid #666666;
+  color: black;
+  background-color: #f1ebdd;
+}
+.wizard-title .steps .step.blocked .circle {
+  cursor: not-allowed;
+}
+.wizard-title .steps .step.active p {
+  color: #312f2f;
+  font-weight: bold;
+}
+.wizard-title .steps .step p {
+  font-size: 12px;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+}
+.edu-wizard-views.ng-enter,
+.edu-wizard-views.ng-leave {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+}
+/* enter animation */
+.edu-wizard-views.ng-enter {
+  -webkit-animation: slideInRight 0.5s both ease;
+  -moz-animation: slideInRight 0.5s both ease;
+  animation: slideInRight 0.5s both ease;
+}
+/* leave animation */
+.edu-wizard-views.ng-leave {
+  -webkit-animation: slideOutLeft 0.5s both ease;
+  -moz-animation: slideOutLeft 0.5s both ease;
+  animation: slideOutLeft 0.5s both ease;
+}
+/* ANIMATIONS
+============================================================================= */
+/* slide out to the left */
+@keyframes slideOutLeft {
+  to {
+    transform: translateX(-200%);
+  }
+}
+@-moz-keyframes slideOutLeft {
+  to {
+    -moz-transform: translateX(-200%);
+  }
+}
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-200%);
+  }
+}
+/* slide in from the right */
+@keyframes slideInRight {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideInRight {
+  from {
+    -moz-transform: translateX(200%);
+  }
+  to {
+    -moz-transform: translateX(0);
+  }
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(200%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+  }
+}
+.textAlignLeft {
+  text-align: left;
+}
+.textAlignCenter {
+  text-align: center;
+}
+.textAlignRight {
+  text-align: right;
+}
+.page-head {
+  border: none;
+  background: none;
+  box-shadow: none !important;
+}
+.form-group {
+  margin-bottom: auto;
+}
+.periodo-letivo {
+  width: auto;
+  margin: -10px 0 auto 20px;
+}
+field[totvs-date-range] .field-input > .input-group > span:first-of-type > span.k-picker-wrap,
+totvs-field[totvs-date-range] .field-input > .input-group > span:first-of-type > span.k-picker-wrap,
+.field[totvs-date-range] .field-input > .input-group > span:first-of-type > span.k-picker-wrap,
+.k-datetimepicker .k-select + .k-select,
+.k-dropdown-wrap .k-select,
+.k-list-container.k-state-border-right,
+.k-numeric-wrap .k-select,
+.k-picker-wrap .k-select {
+  border-radius: 0 !important;
+}
+.k-picker-wrap .input-group-addon {
+  background: #fff;
+  color: #666666;
+}
+h2.title {
+  margin-left: 18px !important;
+}
+.btn-toolbar {
+  margin-bottom: 2rem;
+}
+.btn-toolbar > .btn-group {
+  margin-right: 15px;
+}
+.btn-toolbar > .btn-group > span {
+  float: left;
+  padding: 9px 105px 9px 10px;
+}
+.btn-toolbar > .btn-group:first-child > .btn,
+.btn-toolbar > .btn-group:first-child span {
+  border-radius: 0 !important;
+}
+.btn-toolbar > .btn-group:nth-child(2) {
+  top: -11px;
+}
+.form-control {
+  color: #666666;
+  border-radius: 0;
+  -webkit-box-shadow: 0 !important;
+  box-shadow: 0 !important;
+  -webkit-transition: 0 !important;
+  -o-transition: 0 !important;
+  transition: 0 !important;
+}
+select.form-control {
+  width: auto !important;
+}
+/*Ajustes para remover css inline que atrapalha a execução deste*/
+#menu-workspace .k-grid {
+  height: auto !important;
+}
+.titulo > div > div > h2 > span {
+  font-size: 2.6rem;
+  margin-left: -10px;
+}
+#menu-header h3.header-title {
+  padding: 12px 10px 0 10px;
+  font-size: 15px;
+}
+#menu-header .btn {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+#menu-header .header-item {
+  padding: 0px 20px;
+  border-left: 1px solid #ccc;
+  margin: 10px 0;
+  font-variant-caps: all-petite-caps;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#menu-header .header-item-action {
+  cursor: pointer;
+}
+#menu-header .header-item-separador {
+  padding-right: 0;
+}
+/* Size da foto miniatura*/
+.img-foto-xs {
+  min-width: 16px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+}
+.img-foto-xs-auto {
+  min-width: 16px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.img-foto-sm {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+}
+.img-foto-sm-auto {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  height: 32px !important;
+}
+.img-foto {
+  min-width: 75px;
+  max-width: 75px;
+  min-height: 32px;
+  max-height: 100%;
+}
+.img-foto-auto {
+  min-width: 75px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.img-foto-md {
+  min-width: 100px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+}
+.img-foto-md-auto {
+  min-width: 100px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.img-foto-lg {
+  min-width: 190px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+}
+.img-foto-lg-auto {
+  min-width: 160px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+/*Information Menu*/
+.information-menu {
+  border: none;
+  border-radius: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+.information-menu.header-item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+.information-menu-nome-ra {
+  font-weight: bold;
+  color: inherit;
+}
+.information-menu-nome-ra:hover {
+  font-weight: bold;
+  color: inherit;
+  cursor: pointer;
+}
+.information-menu-nome {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+.information-menu-foto {
+  margin: 5px;
+}
+.information-menu-seta {
+  padding: 10px;
+  margin-top: 0 !important;
+}
+.page-navbar {
+  border: none !important;
+}
+.legend:before,
+.legenda:before {
+  line-height: 15px;
+  margin-right: 5px;
+}
+.legenda-content-1:before,
+.tag.dentro-limite:before {
+  content: "1";
+}
+.legenda-content-2:before,
+.tag.acima-limite:before {
+  content: "2";
+}
+.legenda-content-3:before,
+.tag.proximo-limite:before {
+  content: "3";
+}
+.legenda-content-4:before {
+  content: "4";
+}
+.legenda-content-5:before {
+  content: "5";
+}
+.legenda-content-6:before {
+  content: "6";
+}
+.legenda-content-7:before {
+  content: "7";
+}
+.legenda-content-8:before {
+  content: "8";
+}
+.legenda-content-9:before {
+  content: "9";
+}
+.legenda-content-10:before {
+  content: "10";
+}
+/* Legenda customizada filtro*/
+.legenda-click {
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.legenda-click > .legend-click:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.legenda-click > .legend-click:active {
+  font-weight: bold;
+  cursor: pointer;
+}
+.legenda-item {
+  word-break: break-word;
+}
+.legenda-verde:before {
+  background-color: #5c8a8a;
+}
+.legenda-verde-2:before {
+  background-color: #54c48e;
+}
+.legenda-vermelho:before {
+  background-color: #ff4d4d;
+}
+.legenda-azul:before {
+  background-color: #4080bf;
+}
+.legenda-laranja:before {
+  background-color: #ff944d;
+}
+.legenda-cinza:before {
+  background-color: #a2a276;
+}
+.legenda-amarelo:before {
+  background-color: #ffe066;
+}
+.legenda-azul-2:before {
+  background-color: #66ccff;
+}
+/* Legenda dinâmica*/
+.legenda-1:before,
+.tag.dentro-limite:before {
+  background-color: #5c8a8a;
+}
+.legenda-2:before,
+.tag.acima-limite:before {
+  background-color: #54c48e;
+}
+.legenda-3:before,
+.tag.proximo-limite:before {
+  background-color: #ff4d4d;
+}
+.legenda-4:before {
+  background-color: #4080bf;
+}
+.legenda-5:before {
+  background-color: #ff944d;
+}
+.legenda-6:before {
+  background-color: #a2a276;
+}
+.legenda-7:before {
+  background-color: #ffe066;
+}
+.legenda-8:before {
+  background-color: #66ccff;
+}
+.legenda-9:before {
+  background-color: #468893;
+}
+.legenda-10:before {
+  background-color: #faa634;
+}
+.legenda:before {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  color: #fff;
+}
+.tag.doc-entregue:before {
+  background-color: #54c48e;
+  content: "1";
+}
+.tag.doc-pendente:before {
+  background-color: #ff4d4d;
+  content: "2";
+}
+.page-wrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.tabset > .tab-content > .tab-pane {
+  /*as abas*/
+  /*tab pane sem filter*/
+}
+.tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > .k-grid > .k-grid-header {
+  /*cabeçalho cinza tabela*/
+  padding-right: 0 !important;
+}
+.tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > .k-grid > .k-grid-header > .k-grid-header-wrap.k-auto-scrollable > table > thead > tr > th {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > .k-grid > .k-grid-header > .k-grid-header-wrap.k-auto-scrollable > table > thead > tr > th > a,
+.tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > .k-grid > .k-grid-header > .k-grid-header-wrap.k-auto-scrollable > table > thead > tr > th a.k-link {
+  text-align: center;
+}
+.tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > .k-grid > .k-grid-content.k-auto-scrollable {
+  height: auto !important;
+  overflow: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+.k-grid tr td {
+  border: none !important;
+}
+.k-grid-content {
+  height: auto !important;
+  overflow: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+.k-filter-row th,
+.k-grid-header th.k-header {
+  text-align: center !important;
+}
+.k-grouping-row > td {
+  background-color: #e5e5e5;
+}
+.page-content > .page-details {
+  /*título com filtro*/
+}
+.page-content > .page-details > .row > section > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .row > .label-subtitulo > label {
+  margin-top: 16px !important;
+  font-weight: normal;
+}
+.page-content > .tag-2.list-item {
+  border: none !important;
+  /*margin-right: -30px;*/
+}
+.page-content > .tag-2.list-item > .item-container > .pull-left {
+  padding-bottom: 10px;
+}
+.nav-tabs > li {
+  padding: 0 40px 0 0;
+}
+.nav-tabs > li > a {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.nav > li > a:focus,
+.nav > li > a:hover {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tooltip {
+  top: 0;
+}
+.panel-info {
+  border: none;
+  margin-left: 5px;
+  border-radius: 0 !important;
+}
+.panel-info > .panel-body {
+  padding: 15px 15px 0px 15px;
+  border: 0 !important;
+}
+.panel-info > .panel-body > .list-group > .list-group-item {
+  margin-bottom: 3px;
+}
+.well {
+  padding: 10px 20px;
+  margin: 0 5px 0 0;
+  border-radius: 100px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  float: right;
+  font-weight: 600;
+}
+#tovs-page-form > fieldset > .ng-pristine > .field-container > .field-input > .input-group > input {
+  border-radius: 0 !important;
+}
+#tovs-page-form > fieldset > .ng-pristine > .field-container > .field-input > .input-group > span > button {
+  border-radius: 0 !important;
+}
+.input-group-btn:last-child > .btn {
+  margin-left: -9px;
+}
+#edu-widget .pull-right {
+  /*mini botões dos widgets*/
+}
+#edu-widget .pull-right > .settings > .btn,
+#edu-widget .pull-right .btn-default {
+  padding: 4px 5px 0;
+  border: none;
+  border-radius: 2px !important;
+  margin-top: 5px;
+}
+#edu-widget .pull-right > .settings {
+  padding-bottom: 5px;
+}
+#edu-widget {
+  /*mini botões dos widgets (filhos)*/
+}
+#edu-widget > span > .widgetPageContent > div > .dashboard-on-drag > .widget-panel > .dashboard-portlet-header-config > .row > div > span > .pull-right-widget {
+  right: 0;
+}
+#edu-widget > span > .widgetPageContent > div > .dashboard-on-drag > .widget-panel > .dashboard-portlet-header-config > .row > div > span > .pull-right-widget > .btn,
+#edu-widget > span > .widgetPageContent > div > .dashboard-on-drag > .widget-panel > .dashboard-portlet-header-config > .row > div > span > .pull-right-widget .btn-default {
+  padding: 4px 5px 0;
+  border: none;
+  border-radius: 2px !important;
+}
+#edu-widget .pull-left.btn {
+  position: absolute;
+  left: -9999px;
+}
+#edu-widget .page-head {
+  /*position: absolute; - Posicionamento dos botões do widget para fora do componente*/
+  z-index: 5;
+  right: 80px;
+  padding: 0 !important;
+  margin-right: 25px;
+}
+#edu-widget .widgetPageContent .dashboard-portlet-config .dashboard-on-drag .widget-panel > .dashboard-portlet-header-config > div.row {
+  margin-top: -31px;
+}
+#edu-widget .widgetPageContent .dashboard-portlet-config .dashboard-on-drag .widget-panel > .dashboard-portlet-header-config > div.row > div > span > .pull-left-widget > field {
+  width: auto;
+  margin-right: 10px;
+}
+#edu-widget .widgetPageContent .dashboard-portlet-config .dashboard-on-drag .widget-panel > .dashboard-portlet-header-config > div.row > div > span > .pull-left-widget > field .field-container {
+  margin-top: 0 !important;
+}
+#edu-widget .widgetPageContent .dashboard-portlet-config .dashboard-on-drag .widget-panel > .dashboard-portlet-header-config > div.row > div > span > .pull-right-widget {
+  margin-left: 10px;
+}
+#edu-widget .widgetPageContent .dashboard-portlet-config .dashboard-on-drag .widget-panel .panel-body div div .widget-panel .panel-heading {
+  display: none;
+}
+.dashboard-painel-no-border.widget-panel > .panel-body {
+  padding: 0 !important;
+}
+.dashboard-portlet .panel-heading {
+  padding: 12px 15px !important;
+}
+#edu-widget .panel-heading {
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 0;
+  padding-bottom: 0;
+  padding: 10px 15px;
+}
+#edu-widget .panel-heading > .row > div > h3 {
+  display: inline;
+  padding: 15px;
+}
+.link-widget {
+  margin: -30px 29px 0 0;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.widgetsMural .widgetPageContent.edit .dashboard-portlet .widget-panel .panel-heading {
+  margin-top: 20px;
+  margin-left: 10px !important;
+}
+.widgetsMural .dashboard-portlet > .widget-panel > .panel-body > .ng-scope > .totvs-style-guide > .page-content {
+  margin: -50px 0 -20px 30px;
+}
+.widgetAcontecehj .panel-body {
+  margin-left: 20px !important;
+  margin-right: 10px !important;
+}
+.widgetAcontecehj .k-i-refresh {
+  display: none;
+}
+.widgetAcontecehj .panel-body > .row:first-child {
+  margin-top: 11px;
+}
+.widgetAcontecehj .totvs-style-guide {
+  margin-top: -26px;
+}
+.dashboard-portlet-config .widgetAcontecehj .totvs-style-guide {
+  margin-top: -55px;
+  margin-right: 31px;
+}
+.widgetAcontecehj .totvs-style-guide .alert-info {
+  margin: 0 6px;
+}
+.dashboard-portlet-config .widgetAcontecehj .totvs-style-guide .panel-body {
+  margin: 0 10px ;
+}
+#widgetAconteceHj .k-floatwrap.k-header.k-scheduler-toolbar {
+  display: none;
+}
+.widgetFrequencia .panel-body {
+  margin-left: 20px !important;
+  margin-right: 10px !important;
+}
+.widgetNotas .panel-body {
+  margin-left: 20px !important;
+  margin-right: 10px !important;
+}
+.widgetNotas .k-i-refresh {
+  display: none;
+}
+.widgetNotas .totvs-style-guide {
+  margin-top: -35px;
+}
+.dashboard-portlet-config .widgetNotas .totvs-style-guide {
+  margin-top: -55px;
+  margin-right: 31px;
+}
+.widgetNotas .totvs-style-guide .alert-info {
+  margin: 0 6px;
+}
+.dashboard-portlet-config .widgetNotas .totvs-style-guide .panel-body {
+  margin: 0 10px ;
+}
+.widgetDisciplinas .page-content {
+  overflow-y: auto;
+  max-height: 330px;
+  margin: -27px -20px 0px -10px;
+}
+.widgetDisciplinas .page-content a,
+label,
+span {
+  font-size: 1.4rem;
+}
+.dashboard-on-drag .widgetDisciplinas .page-content {
+  margin: -45px 0 -20px 26px;
+  max-height: 330px;
+}
+.page-content .list-item:nth-child(even),
+.page-content .list-item:nth-child(odd) {
+  border-left: none;
+}
+.widgetVencimento .alert-info {
+  margin: 10px 36px;
+}
+.widgetVencimento .panel-heading {
+  border: none;
+  background-color: transparent;
+}
+.widgetVencimento .panel-footer {
+  background-color: transparent;
+  padding: 10px 0;
+}
+.widgetVencimento .panel-footer > .btn-group {
+  margin-right: 10px;
+}
+.widgetVencimento .panel-footer > .btn-group > #btnBoleto,
+.widgetVencimento .panel-footer > .btn-group #btnCartao {
+  padding: 5px 10px;
+  border-radius: 3px !important;
+  margin: 5px 5px 0 0;
+}
+.carousel {
+  margin: 0 -5px;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  margin: 0 auto;
+}
+.panelMural {
+  margin-top: -65px;
+}
+.panelMural .panelmural {
+  margin: 0 -25px 0 -20px !important;
+}
+.widget-panel .panel-body {
+  /*padding: 0 0 0 25px;*/
+}
+.widget-panel .panel-body totvs-carousel .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.dadosPessoais > .page-details > .row > .media {
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 25px;
+}
+.dadosPessoais > .page-details > .row > section.ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .detail-field {
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+.page-details-infogroup {
+  margin-top: 30px;
+}
+.dadosPessoais h4 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.dadosPessoais h4,
+.dadosPessoais legend {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+.operations.page-detail-actions {
+  margin-right: 30px;
+}
+.dadosPessoais .btn-group-sm {
+  /*position: absolute;
+    margin: 15px 0 30px 15px;*/
+  margin: 15px 0 30px 15px;
+  float: left !important;
+}
+.dadosPessoais .btn-group-dp {
+  position: relative;
+  margin: 30px 0 10px 0px;
+  float: left !important;
+}
+.dadosPessoais .field-container .no-block {
+  margin-right: 10px;
+}
+field .field-container,
+totvs-field .field-container,
+.field .field-container {
+  margin-top: 10px;
+}
+.mov-academico label {
+  padding-right: 10px;
+}
+.planoAula.media {
+  background-color: rgba(214, 214, 214, 0.42);
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 25px;
+}
+.planoAula.media > .media-body > div > div > span {
+  color: #666666;
+}
+.planoAula.media > .media-body > div > div > .ng-scope > .ng-scope > span {
+  color: #468893;
+}
+.k-scheduler-toolbar .k-scheduler-navigation li.k-state-default,
+.k-scheduler-toolbar .k-scheduler-views li.k-state-default {
+  border-radius: 0 !important;
+}
+.k-scheduler-table {
+  font-weight: normal;
+  text-align: center;
+}
+.k-scheduler-table td,
+.k-scheduler-table th {
+  padding: .35rem .5rem .2rem !important;
+}
+.scheduler-class .k-header {
+  background-color: #fff;
+}
+.scheduler-class .k-floatwrap {
+  padding: 10px 0 25px;
+}
+.scheduler-class .k-floatwrap > ul > .k-nav-today {
+  margin: 0 5px;
+}
+.scheduler-class .k-scheduler-weekview,
+.scheduler-class .k-scheduler-dayview {
+  /*Dia e Semana*/
+}
+.scheduler-class .k-scheduler-weekview > tbody > tr > td > .k-scheduler-times > table > tbody > tr > th,
+.scheduler-class .k-scheduler-dayview > tbody > tr > td > .k-scheduler-times > table > tbody > tr > th {
+  font-weight: normal;
+  text-align: center;
+  color: #666666;
+}
+.scheduler-class .k-scheduler-weekview > tbody > tr > td > .k-scheduler-times > table > tbody > tr > td,
+.scheduler-class .k-scheduler-dayview > tbody > tr > td > .k-scheduler-times > table > tbody > tr > td {
+  font-weight: normal;
+  text-align: center;
+  color: #666666;
+  border-left-color: rgba(20, 63, 112, 0.45) !important;
+}
+.scheduler-class .k-scheduler-weekview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > table > tbody > tr > th,
+.scheduler-class .k-scheduler-dayview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > table > tbody > tr > th {
+  text-align: center;
+  border-left-color: rgba(20, 63, 112, 0.45) !important;
+}
+.scheduler-class .k-scheduler-weekview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > table > tbody > tr > th > .k-link,
+.scheduler-class .k-scheduler-dayview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > table > tbody > tr > th > .k-link {
+  font-weight: normal;
+}
+.scheduler-class .k-scheduler-weekview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > div > .k-event,
+.scheduler-class .k-scheduler-dayview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > div > .k-event {
+  border-radius: 0 !important;
+}
+.scheduler-class .k-scheduler-monthview {
+  /*Mês*/
+}
+.scheduler-class .k-scheduler-monthview > tbody > tr > td .k-scheduler-header .k-scheduler-header-wrap .k-scheduler-table > tbody > tr > th,
+.scheduler-class .k-scheduler-monthview > tbody > tr > td .k-scheduler-header .k-scheduler-header-wrap .k-scheduler-table .k-scheduler-table tbody tr th.k-today {
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  border-left-color: rgba(20, 63, 112, 0.45) !important;
+  border-bottom: 1px solid transparent;
+}
+.scheduler-class .k-scheduler-monthview > tbody > tr > td .k-scheduler-content .k-event {
+  border-radius: 0 !important;
+}
+.scheduler-class .k-scheduler-monthview > tbody > tr > td .k-scheduler-content .k-event > div > .k-event-template {
+  padding: 0.15em;
+  line-height: 1.6em;
+}
+.scheduler-class .k-scheduler-monthview > tbody > tr > td .k-scheduler-content > .k-scheduler-table > tbody > tr > td .k-link {
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  width: auto;
+}
+.scheduler-class .k-scheduler-agendaview {
+  /*Agenda*/
+}
+.scheduler-class .k-scheduler-agendaview > tbody > tr > td > .k-scheduler-header > .k-scheduler-header-wrap > .k-scheduler-table > tbody > tr > th {
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  border-left-color: rgba(20, 63, 112, 0.45) !important;
+  border-bottom: 1px solid transparent;
+}
+.scheduler-class .k-scheduler-agendaview > tbody > tr > td > .k-scheduler-content .k-event > div > .k-event-template {
+  padding: 0.15em;
+  line-height: 1.6em;
+}
+.scheduler-class .k-scheduler-agendaview > tbody > tr > td > .k-scheduler-content > .k-scheduler-table > tbody > tr > td > div {
+  margin: .8em 0 0;
+}
+.scheduler-class .k-scheduler-agendaview > tbody > tr > td > .k-scheduler-content > .k-scheduler-table > tbody > tr > td > .k-link {
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  width: auto;
+}
+.k-link {
+  text-align: left;
+}
+.k-scheduler-footer {
+  /* make them invisible */
+  display: none;
+  /* prevent height and paddings from influencing the size calculations */
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* Mobile */
+html .km-pane-wrapper .k-header {
+  background-color: white;
+}
+.km-pane-wrapper,
+.km-view {
+  position: inherit;
+}
+@media only screen and (max-width: 1024px) {
+  .k-edge .k-scheduler-toolbar > ul.k-scheduler-views,
+  .k-ff .k-scheduler-toolbar > ul.k-scheduler-views,
+  .k-ie11 .k-scheduler-toolbar > ul.k-scheduler-views,
+  .k-safari .k-scheduler-toolbar > ul.k-scheduler-views,
+  .k-webkit .k-scheduler-toolbar > ul.k-scheduler-views {
+    z-index: 1000;
+  }
+}
+.km-pane-wrapper .k-scheduler-views {
+  table-layout: inherit;
+}
+/* FIM Mobile */
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > .k-grid-header > tr > th.k-header {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody > tr > td {
+  border: none !important;
+}
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody > tr > td > .quadro-horario-faixahorario {
+  color: #fff;
+}
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody > .gridRow.quadro-horario-hora,
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody .gridRow.quadro-horario-celula {
+  text-align: left;
+  cursor: pointer;
+}
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody > .gridRow.quadro-horario-hora > span > .glyphicon-triangle-right,
+.totvs-style-guide > .page-content > span.ng-scope > .k-grid > table > tbody .gridRow.quadro-horario-celula > span > .glyphicon-triangle-right {
+  display: none;
+}
+.totvs-style-guide > .page-content > fieldset > div.btn-group {
+  margin: 0 0 0 -10px !important;
+  float: inherit !important;
+}
+.totvs-style-guide > .page-content > fieldset > div.btn-group > .btn-info,
+.totvs-style-guide > .page-content > fieldset > div.btn-group .btn-info.active,
+.totvs-style-guide > .page-content > fieldset > div.btn-group .btn-info:active,
+.totvs-style-guide > .page-content > fieldset > div.btn-group .open > .dropdown-toggle.btn-info {
+  color: #666666;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-right: 15px;
+}
+.k-grid-header:first-child th.k-header:first-child,
+.k-rtl thead.k-grid-header th.k-header:last-child,
+thead.k-grid-header th.k-header:first-child {
+  border-radius: 0;
+}
+.k-scheduler-layout .k-scheduler-header {
+  padding-right: 0 !important;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope {
+  /*Grid a partir do filtro,  cabeçalho*/
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .pageHeader {
+  /*Campos cabeçalho - ng-scope */
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .pageHeader > .form-group > div > label {
+  font-weight: normal;
+  color: #666666;
+  padding-top: 16px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .k-grid {
+  /*Table gerada pelo filter (segundo nível)*/
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .k-grid > .k-grid-header {
+  padding-right: 0 !important;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .k-grid > .k-grid-header > .k-grid-header-wrap.k-auto-scrollable > table > thead > tr > th {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .k-grid > .k-grid-content {
+  height: auto !important;
+  overflow: auto;
+}
+.alignLegend > .ng-scope > .row > div > .page-tags {
+  margin: 15px;
+}
+.alignLegend > .ng-scope > .row > div > .page-tags > .tag {
+  margin-bottom: 10px;
+}
+#MYGRID {
+  margin-top: 20px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > div {
+  margin: 0 -30px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .pageHeader > .ng-scope > div > h4 > label {
+  margin-top: 16px !important;
+  font-weight: normal;
+  padding-right: 10px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .avaliacaoInstitucional {
+  border: 0 !important;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .avaliacaoInstitucional > .ng-scope > .k-grid {
+  /*Table gerada pelo filter (segundo nível)*/
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .avaliacaoInstitucional > .ng-scope > .k-grid > .k-grid-header {
+  padding-right: 0 !important;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .avaliacaoInstitucional > .ng-scope > .k-grid > .k-grid-header > .k-grid-header-wrap.k-auto-scrollable > table > thead > tr > th > a {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > div > .avaliacaoInstitucional > .ng-scope > .k-grid > .k-grid-content {
+  height: auto !important;
+  overflow: auto;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin: 0 -30px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > div > h2 {
+  margin-bottom: 20px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > div > h2 > span {
+  font-weight: bold;
+  margin: 0 0 10px 10px;
+}
+.NotasDesempenho > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > div > h4 > label {
+  margin-top: 16px !important;
+  font-weight: normal;
+  padding-right: 10px;
+}
+.tag-2 .btn-default {
+  font-size: 1.4rem;
+}
+.ModalNotasAvaliacoesDetalhes h4 label {
+  margin-top: 16px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dadosDisciplina.page-content > .page-details > .row {
+  /*2 níveis de abas*/
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope .totvs-style-guide > div > div {
+  margin: 0 -30px;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope .totvs-style-guide > div > div > div > .headTab {
+  margin-left: 30px;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope .totvs-style-guide > .page-content > .list-item {
+  border-left: 0 !important;
+}
+.dadosDisciplina.page-content > .page-details > .row > .media {
+  background-color: rgba(214, 214, 214, 0.42);
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 25px;
+}
+.dadosDisciplina.page-content > .page-details > .row > .media > .media-body > div > div > span {
+  color: #666666;
+}
+.dadosDisciplina.page-content > .page-details > .row > .media > .media-body > div > div > .ng-scope > .ng-scope > span {
+  color: #468893;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .pageHeader > .ng-scope > div > label {
+  float: left;
+  margin-top: 16px;
+  margin-left: 5px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .ng-scope > div > label {
+  float: left;
+  margin-top: 16px;
+  margin-left: 5px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide {
+  margin: 0 -10px;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .row > div > h4 > label {
+  float: left;
+  margin-top: 16px;
+  margin-left: 5px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+.dadosDisciplina.page-content > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .pageListagemAulas > .k-grid-content {
+  height: auto !important;
+  overflow: auto;
+}
+.avaliacaoInstitucional {
+  border: 0 !important;
+}
+.dadosDisciplina > .headTab > .row > div > h2 {
+  font-weight: bold;
+}
+.dadosDisciplina .pageHeaderTab h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dadosDisciplina .pageHeaderTab .tag {
+  margin-left: -10px;
+  padding: 3px 0;
+}
+.dadosDisciplinaEB {
+  margin: 0 !important;
+}
+.dadosDisciplinaEB > .detalhesGradeCurricular > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+}
+.arquivos-materiais > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin-left: -30px;
+}
+.arquivos-materiais > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .page-content {
+  border: 0 !important;
+}
+.arquivos-materiais > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content {
+  margin: 0 -30px;
+}
+.institucionais > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin: 0 -50px !important;
+}
+.ocorrencias.page-content {
+  margin-left: 0;
+}
+.page-content > div > .subtituloAvaliacao {
+  margin: 20px 0 30px 5px;
+  float: left;
+  margin-top: 16px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin: 0 -30px;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > .row {
+  margin-left: -10px;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > div > h2.title > span.ng-binding {
+  font-weight: normal !important;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .row > .ng-pristine > div > div > div > select {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content {
+  margin: 0 -30px;
+}
+.atividadesCurriculares > .ng-scope > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content.atividadesCurriculares {
+  margin: 0 -30px;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin-left: -25px;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .row > label {
+  margin-top: 16px !important;
+  font-weight: normal;
+  padding-right: 5px;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .page-content {
+  border: 0 !important;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content {
+  margin: 0 -30px;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item {
+  margin-right: 0 !important;
+  border-left: none;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item > .item-container > .pull-left {
+  padding-bottom: 10px;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item > .item-container > .pull-left > .ng-scope > .open > .row > .detalhes-lancamento-financeiro > .k-grid > .k-grid-header {
+  padding-right: 0 !important;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item > .item-container > .pull-left > .ng-scope > .open > .row > .detalhes-lancamento-financeiro > .k-grid > .k-grid-header > .k-grid-content {
+  height: auto !important;
+  overflow: auto !important;
+}
+.itemFinanceiro > .page-details > .row > .ng-scope > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item > .item-container > .pull-left > .ng-scope > .open > .row > .detalhes-lancamento-financeiro > .k-grid > .k-grid-header > .k-grid-content > table > tbody > tr > td > a {
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.itemFinanceiro .btn-default {
+  font-size: 1.4rem !important;
+}
+.totvs-style-guide > .pageHeader > .label-subtitulo > div.btn-group {
+  /*float: right;
+        right: -52px;*/
+}
+.totvs-style-guide > .pageHeader > .label-subtitulo > div.btn-group > .btn-info {
+  /*Botão dos boletos*/
+  top: 20px !important;
+  color: #666666;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.totvs-style-guide > .pageHeader > .label-subtitulo > div.btn-group > .btn-info > span {
+  margin-top: -9px !important;
+}
+.tag-2 .item-container .title {
+  font-size: 1.5rem;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .align-legend > .ng-scope > .row {
+  margin-left: 0;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .align-legend > .ng-scope > .row > div > .page-tags {
+  border: none;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .align-legend > .ng-scope > .row > div > .page-tags > .tag {
+  margin-bottom: 10px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader {
+  margin-left: -45px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader > .ng-scope > label,
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .pageHeader .diretiva-campos-selecao {
+  float: left !important;
+  font-weight: normal !important;
+  padding-top: 16px;
+  padding-right: 10px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content {
+  margin: 0 -30px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .row {
+  margin: -20px 0px 20px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item {
+  margin-right: 0 !important;
+  border-left: none;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .tag-2.list-item > .item-container > .pull-left {
+  padding-bottom: 10px;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .pageContent > .k-grid > .k-grid-header,
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content .pageListagemAulas > .k-grid > .k-grid-header {
+  padding-right: 0 !important;
+  color: #fff;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .pageContent > .k-grid > .k-grid-header > .k-grid-header-wrap > table > thead > tr > th,
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content .pageListagemAulas > .k-grid > .k-grid-header > .k-grid-header-wrap > table > thead > tr > th {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content > .pageContent > .k-grid > .k-grid-content,
+.page-content > .page-details > .row > .tabset > .tab-content > .tab-pane > .ng-scope > .ng-scope > .totvs-style-guide > .page-content .pageListagemAulas > .k-grid > .k-grid-content {
+  height: auto !important;
+  overflow: auto;
+}
+.requerimentos-sub-titulos-lista {
+  margin: 10px;
+  font-weight: bold;
+}
+.tag.status-requerimento-em-andamento:before {
+  background-color: #5c8a8a;
+  content: "1";
+}
+.tag.status-requerimento-concluido:before {
+  background-color: #54c48e;
+  content: "2";
+}
+.tag.status-requerimento-cancelado:before {
+  background-color: #ff4d4d;
+  content: "3";
+  color: white;
+}
+.requerimentos.tag.legend:before {
+  border-radius: 50%;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+  text-align: center;
+  vertical-align: middle !important;
+  display: inline-block;
+  margin-top: -8px;
+}
+.requerimentos {
+  word-break: break-word;
+}
+.requerer-solicitar > div > div > form {
+  /*Detalhes do Requerimento*/
+  margin: 0;
+}
+.requerer-solicitar > div > div > form > .row,
+.requerer-solicitar > div > div > form div {
+  margin-right: 0;
+}
+.requerer-solicitar > div > div > form > .row > .field-label,
+.requerer-solicitar > div > div > form div > .field-label {
+  color: #666666;
+}
+.requerer-solicitar > div > div > form > .pull-right {
+  margin-top: 20px;
+}
+.requerimento-field select.form-control {
+  width: 100% !important;
+}
+#idArquivoFileRequerimento div {
+  padding: 0 !important;
+}
+#idArquivoFileRequerimento label:not(.input-group-btn) {
+  font-size: 12px !important;
+  margin-top: 5px !important;
+  font-family: 'Arial' !important;
+  color: gray !important;
+}
+#idArquivoFileRequerimento input[name^="campoFile_fake"] {
+  z-index: 2 !important;
+}
+.hoverbuttonactive {
+  color: #278495 1px !important;
+  background-color: rgba(39, 132, 149, 0.15) 1px !important;
+  border-color: #278495 1px !important;
+  -webkit-border-radius: 1px !important;
+  -moz-border-radius: 1px !important;
+  border-radius: 1px !important;
+}
+.titulo .btnExpandGrid {
+  margin-top: 40px !important;
+  float: right;
+  position: absolute;
+  right: -17px;
+}
+.titulo .btnExpandGrid > label {
+  background-color: transparent !important;
+  border: none  !important;
+  box-shadow: none  !important;
+  -webkit-box-shadow: none  !important;
+  text-decoration: underline;
+}
+.page-content.gradeCurricul > .tabset > .nav-tabs {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 1px solid #dddddd !important;
+  border-left: 0 !important;
+}
+.page-content.gradeCurricul > .tabset > .nav-tabs > li {
+  border: none !important;
+}
+.page-content.gradeCurricul > .tabset > .nav-tabs > li > a:active,
+.page-content.gradeCurricul > .tabset > .nav-tabs > li a:hover,
+.page-content.gradeCurricul > .tabset > .nav-tabs > li a:focus {
+  cursor: pointer;
+}
+.page-content.gradeCurricul > .tabset > .nav-tabs > li.active > a,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.hover > a,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.focus > a,
+.page-content.gradeCurricul > .tabset > .nav-tabs > li.active a:active,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.hover a:active,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.focus a:active,
+.page-content.gradeCurricul > .tabset > .nav-tabs > li.active a:hover,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.hover a:hover,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.focus a:hover,
+.page-content.gradeCurricul > .tabset > .nav-tabs > li.active a:focus,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.hover a:focus,
+.page-content.gradeCurricul > .tabset > .nav-tabs li.focus a:focus {
+  cursor: pointer;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .btn-group {
+  margin: 20px 0 !important;
+  color: #666666 !important;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .btn-group > .btn-default {
+  border: 0;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .btn-group > .btn-default.active {
+  box-shadow: none !important;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .btn-group > .btn-default:hover {
+  box-shadow: none !important;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .detalhesGradeCurricular {
+  margin: 0 !important;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .detalhesGradeCurricular > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: initial;
+}
+.page-content.gradeCurricul > .tabset > .tab-content > .tab-pane > div > .detalhesGradeCurricular > .open {
+  margin-bottom: 20px;
+}
+.page-content.gradeCurricul > fieldset > legend {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666666;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item {
+  border: none !important;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item > .item-container > .pull-left {
+  padding-bottom: 10px;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item > .item-container > .pull-left > .ng-isolate-scope > .item-details > .row > .row > div > .list-group {
+  margin: 5px -15px 0 15px !important;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item > .item-container > .pull-left > .ng-isolate-scope > .item-details > .row > .row > div > .list-group > .list-group-item {
+  border-radius: 0;
+  padding: 5px 15px !important;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item > .item-container > .pull-left > .ng-isolate-scope > .item-details > .row > .row > div > .list-group > .disabled {
+  background-color: #efdcdd;
+}
+.page-content.gradeCurricul > fieldset > .tag-2.list-item > .item-container > .pull-left > .ng-isolate-scope > .item-details > .row > .row > div > .k-grid {
+  margin: 5px 15px;
+}
+.gradeCurricularDestaqueEquivalencia,
+tr.gradeCurricularDestaqueEquivalencia:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.gradeCurricularDestaqueEquivalencia td {
+  border: none !important;
+}
+.gradeCurricularLegenda .page-tags {
+  vertical-align: baseline;
+  display: inline-flex;
+  margin: 25px 0 5px 20px;
+}
+.gradeCurricularLegenda .page-tags > div.tag {
+  margin-right: 15px;
+}
+.gradeCurricularTitulo {
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-size: 12px;
+  color: gray;
+}
+.gradeCurricularDescricao {
+  font-style: normal;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+}
+.portalAntigo .legend a.title {
+  font-size: 1.5rem !important;
+  text-decoration: underline;
+}
+.portalAntigo .btn-default {
+  font-size: 1.4rem !important;
+}
+.sysinfo {
+  padding: 10px;
+}
+.sysinfoPanel {
+  display: inline-block;
+  width: 230px;
+  height: 50px;
+  margin: 5px;
+  /* outher shadows  (note the rgba is red, green, blue, alpha) */
+  box-shadow: 2px 2px 6px rgba(23, 69, 88, 0.5);
+}
+.sysinfoPanel > div:nth-child(1) {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 1px;
+  background: #34799b;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 48px;
+  text-align: center;
+}
+.sysinfoPanel > div:nth-child(2) {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sysinfoPanel > div:nth-child(2) span {
+  display: block;
+  margin-left: 10px;
+}
+.sysinfoPanel > div:nth-child(2) span:nth-child(2) {
+  display: block;
+  font-weight: bold;
+}
+.text-content {
+  padding: 10px;
+}
+.largeInfo {
+  width: 720px;
+}
+/*
+    Loading GED
+*/
+#loading-ecm .loading-txt {
+  display: inline-block;
+}
+#loading-ecm .loading-img {
+  display: inline-block;
+}
+.loading {
+  width: 100%;
+  height: 40px;
+}
+/***********************************************************
+*** Adendos CSS (antigo)
+***********************************************************/
+.tag.disciplina-modular:before {
+  content: "\002a";
+  font-family: 'Glyphicons Halflings';
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+.field-container span.glyphicon.glyphicon-remove:before {
+  content: "\e221";
+}
+label[required]:after {
+  content: " *";
+  color: red;
+}
+/*****************************************************************
+* Tooltip
+*****************************************************************/
+.tooltip.top {
+  padding: 1px 0;
+  margin-top: -2px;
+  white-space: nowrap !important;
+}
+.tooltip-inner {
+  min-width: 100px;
+}
+span.tooltip {
+  position: relative;
+  display: inline;
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+  white-space: nowrap !important;
+}
+span.tooltip-top[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  position: absolute;
+  left: 0 !important;
+  opacity: 1;
+  width: 100%;
+  bottom: 100%;
+  z-index: 100;
+}
+@media screen {
+  .non-show-screen {
+    display: none !important;
+  }
+}
+@media print {
+  .printable {
+    left: 0 !important;
+  }
+  .modal,
+  .non-printable {
+    display: none !important;
+  }
+  #menu-contents {
+    top: 0 !important;
+  }
+  #menu-workspace {
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.modal-dialog-scroll {
+  overflow-y: initial !important;
+}
+.modal-body-scroll {
+  height: 500px !important;
+  overflow-y: auto !important;
+}
+.slideout {
+  position: fixed;
+  top: 175px;
+  right: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  z-index: 999;
+  border-color: #278495;
+  background-color: #278495;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  height: 130px;
+}
+.slideout_inner {
+  position: fixed;
+  top: 175px;
+  right: -350px;
+  height: 580px;
+  width: 350px;
+  max-width: 350px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  color: black;
+  font-weight: bold;
+  border-color: #278495;
+  background-color: #278495;
+}
+.slideoutOpen {
+  right: 350px;
+  color: #fff !important;
+}
+.slideoutOpen #slideout_inner {
+  right: 0;
+}
+.slideout_img {
+  height: 130px;
+  width: 35px;
+  cursor: pointer !important;
+}
+.slideout_inner .row {
+  margin-bottom: 15px;
+}
+.comboSlideout select {
+  min-width: 330px;
+  max-width: 330px;
+  color: black;
+  font-weight: bold;
+}
+.divTableSlideout {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 500px;
+}
+.tableSlideout {
+  margin-bottom: 0 !important;
+  width: 330px;
+}
+.divTableSlideout thead tr {
+  background-color: #f1ebdd !important;
+  color: black;
+  font-weight: bold;
+}
+.divTableSlideout tr {
+  background-color: white;
+}
+.totvs-group-modal > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: inherit;
+  background-color: #c7d7e4;
+}
+.totvs-subgroup-modal > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: inherit;
+  background-color: #f1ebdd;
+}
+.widget-row {
+  font-family: 'Nunito', sans-serif;
+  margin-right: -23px !important;
+  margin-left: -14px !important;
+}
+.widget {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  min-width: 25%;
+  border-radius: 5px;
+  margin: 0px 10px 13px 5px;
+}
+.widget:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+}
+.widget-description {
+  min-height: 30px;
+  font-size: 1.8rem;
+}
+.widget-label {
+  font-size: 1.5rem !important;
+}
+.widget-imagem {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.info-creditos {
+  margin-left: -12px;
+  margin-right: -16px;
+}
+.info-creditos > .list-group {
+  padding: 1px;
+  margin-bottom: 10px;
+}
+.panel-info-matricula {
+  margin-left: 5px;
+  border: 1px solid #bdc3d2;
+  border-radius: 2px !important;
+  margin-bottom: 10px !important;
+}
+.panel-info-matricula > .panel-body {
+  background-color: rgba(228, 228, 228, 0.5);
+  padding: 5px 5px 5px 5px;
+  border: 0 !important;
+}
+.panel-info-matricula > .panel-body > .table {
+  margin-bottom: 0 !important;
+}
+.panel-info-matricula > .panel-body > .table > thead > tr.quadroHorario {
+  background-color: #c7d7e4;
+  color: #31708f;
+}
+.panel-info-matricula > .panel-body > .table > thead > tr.quadroHorario > th > div.vertical-align-middle {
+  vertical-align: -webkit-baseline-middle;
+}
+.panel-info-matricula > .panel-body > .table > tbody > tr > td.colunaHorario {
+  background-color: #c7d7e4;
+  color: #31708f;
+  text-align: center;
+  vertical-align: middle;
+}
+.panel-info-matricula > .panel-body > .table tbody > tr > td > div > div > span.excluiDisciplina {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0px 0px 0px 2px;
+}
+.panel-info-matricula > .panel-body div.tableInfoTurmaDisciplina {
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+  font-size: 12px;
+  border: 1px solid #bdc3d2;
+}
+.panel-info-matricula > .panel-body > .quadroHorario {
+  background-color: #c7d7e4;
+  color: #31708f;
+}
+.panel-info-matricula > .panel-body > .list-group {
+  margin-bottom: 0;
+}
+.panel-info-matricula > .panel-body > .list-group-item {
+  margin-bottom: 3px;
+}
+.panel-info-matricula > .panel-body > .list-group-item-center {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.panel-info-matricula > .panel-body > .totvs-group {
+  margin: 2px 0;
+}
+.panel-info-matricula > .panel-body > .totvs-group > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: inherit;
+  background-color: #c7d7e4;
+}
+.panel-info-matricula > .panel-heading {
+  color: #31708f;
+  border-color: #cad0e4;
+  background-color: rgba(37, 123, 146, 0.15);
+  height: 38px;
+}
+.panel-info-matricula > .panel-heading > div > .icon-matricula {
+  cursor: pointer;
+}
+.panel-info-matricula > .panel-heading > div > .icon-matricula-edicao {
+  cursor: pointer;
+  color: #d36161;
+}
+.panel-info-matricula > .panel-heading > div > .padding-icon-matricula {
+  padding: 1px 3px 0px 10px;
+}
+.panel-info-matricula > .panel-heading > div > .padding-3px-icon-matricula {
+  padding: 3px;
+}
+.panel-info-matricula > #bodyPainelQuadroHorario th {
+  text-align: center;
+}
+.panel-info-matricula > #bodyPainelResumo th {
+  text-align: center;
+}
+.panel-info-validacao-matricula {
+  border-radius: 2px !important;
+  margin-left: 40px;
+  margin-bottom: 10px !important;
+  background-color: #fbe2e2;
+  border: 1px solid #f9c6c6;
+  box-shadow: 0 0 10px #b6b2b2 !important;
+}
+.panel-info-validacao-matricula > .panel-body {
+  padding: 5px 5px 5px 5px;
+  border-color: #f9c6c6;
+  border: 0 !important;
+}
+.panel-info-validacao-matricula > .panel-body > .table {
+  margin-bottom: 0 !important;
+}
+.panel-info-validacao-matricula > .panel-body > .table > tr > td > .tr-validacao {
+  padding-left: 15px;
+}
+.panel-info-validacao-matricula > .panel-body > .table > tr > td > div > .titulo-validacao {
+  color: #864949;
+  margin-right: 0 !important;
+  font-size: 14px;
+}
+.panel-info-validacao-matricula > .panel-body > .list-group > .list-group-item {
+  margin-bottom: 3px;
+}
+.panel-info-validacao-matricula > .panel-body > .totvs-group {
+  margin: 2px 0;
+}
+.panel-info-validacao-matricula > .panel-body > .totvs-group > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: inherit;
+  background-color: #c7d7e4;
+}
+.panel-info-validacao-matricula > .panel-heading {
+  color: #864949;
+  border-color: #f9c6c6;
+  height: 38px;
+}
+.panel-info-validacao-matricula > .panel-heading > div > .icon-matricula {
+  cursor: pointer;
+}
+.panel-info-validacao-matricula > .panel-heading > div > .icon-matricula-edicao {
+  cursor: pointer;
+  color: #d36161;
+}
+.panel-info-validacao-matricula > .panel-heading > div > .padding-icon-matricula {
+  padding: 1px 3px 0px 10px;
+}
+.panel-info-validacao-matricula > .panel-heading > div > .padding-3px-icon-matricula {
+  padding: 3px;
+}
+.panel-info-matricula-direita {
+  margin-left: 40px;
+  font-size: 12px;
+  box-shadow: 0 0 10px #b6b2b2 !important;
+}
+.panel-info-matricula-validacao {
+  background-color: #fbe2e2;
+  border: 1px solid #f9c6c6;
+  margin-left: 40px;
+  box-shadow: 0 0 10px #b6b2b2 !important;
+}
+.marginLeft14Matricula {
+  margin-left: 14px;
+}
+.marginLeft0Matricula {
+  margin-left: 0px;
+}
+.paddingTop10Mat {
+  padding-top: 10px;
+}
+.paddingTop0Mat {
+  padding-top: 0px;
+}
+.resumoPaddingBody {
+  padding: 5px 0px 0px 0px !important;
+}
+.paddingMat {
+  padding: 3px;
+}
+.corAzulIconeMat {
+  color: #398aa5;
+}
+.marginBottomZero {
+  margin-bottom: 0;
+}
+.fontIcon22 {
+  font-size: 22px;
+}
+.detalhesMatricula > div > h6.clickable {
+  margin: 2px 0;
+  padding: 10px;
+  font-size: inherit;
+  background-color: #c7d7e4;
+}
+.ValidacaoMatriculaButton {
+  border: none;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  color: #d36161;
+  position: absolute;
+  display: block;
+  text-overflow: clip;
+}
+.table-borderbottom > tbody > tr > td,
+.table-borderbottom > tbody > tr > th,
+.table-borderbottom > tfoot > tr > td,
+.table-borderbottom > tfoot > tr > th,
+.table-borderbottom > thead > tr > td,
+.table-borderbottom > thead > tr > th {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.table-borderbottom > tbody > tr:last-child {
+  border: none;
+  border-bottom: none;
+}
+.tableMatricula > tbody > tr.active > td,
+.tableMatricula > tbody > tr.active > th,
+.tableMatricula > tbody > tr > td.active,
+.tableMatricula > tbody > tr > th.active,
+.tableMatricula > tfoot > tr.active > td,
+.tableMatricula > tfoot > tr.active > th,
+.tableMatricula > tfoot > tr > td.active,
+.tableMatricula > tfoot > tr > th.active,
+.tableMatricula > thead > tr.active > td,
+.tableMatricula > thead > tr.active > th,
+.tableMatricula > thead > tr > td.active,
+.tableMatricula > thead > tr > th.active {
+  background-color: #f1ebdd;
+  font-weight: bold;
+}
+.tableMatricula > tbody > tr.active:hover > td,
+.tableMatricula > tbody > tr.active:hover > th,
+.tableMatricula > tbody > tr > td.active:hover,
+.tableMatricula > tbody > tr > th.active:hover,
+.tableMatricula > tfoot > tr.active:hover > td,
+.tableMatricula > tfoot > tr.active:hover > th,
+.tableMatricula > tfoot > tr > td.active:hover,
+.tableMatricula > tfoot > tr > th.active:hover,
+.tableMatricula > thead > tr.active:hover > td,
+.tableMatricula > thead > tr.active:hover > th,
+.tableMatricula > thead > tr > td.active:hover,
+.tableMatricula > thead > tr > th.active:hover {
+  background-color: #ebe1c8;
+}
+.tableMatricula > tbody > tr:hover > td,
+.tableMatricula > tbody > tr:hover > th,
+.tableMatricula > tbody > tr > td:hover,
+.tableMatricula > tbody > tr > th:hover,
+.tableMatricula > tfoot > tr:hover > td,
+.tableMatricula > tfoot > tr:hover > th,
+.tableMatricula > tfoot > tr > td:hover,
+.tableMatricula > tfoot > tr > th:hover,
+.tableMatricula > thead > tr:hover > td,
+.tableMatricula > thead > tr:hover > th,
+.tableMatricula > thead > tr > td:hover,
+.tableMatricula > thead > tr > th:hover {
+  background-color: #fdfdfd;
+}
+.tableMatricula > tbody > tr > td:first-child {
+  border-left: 4px solid #e4e4e4;
+}
+.tableMatricula > tbody > tr.active > td:first-child {
+  border-left: 4px solid #278495;
+}
+.PainelAnimacao {
+  -webkit-transition: width 0.3s ease, margin 0.3s ease;
+  -moz-transition: width 0.3s ease, margin 0.3s ease;
+  -o-transition: width 0.3s ease, margin 0.3s ease;
+  transition: width 0.3s ease, margin 0.3s ease;
+}
+.btn-wizard {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #b6b2b2 !important;
+  -webkit-box-shadow: 0 0 10px #b6b2b2 !important;
+  line-height: 1.5;
+  background-color: #216f7d;
+  color: white;
+}
+.btn-wizard:hover {
+  color: #216f7d;
+  border-color: #216f7d;
+  background-color: white;
+}
+.btn-wizard-avancar {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #b6b2b2 !important;
+  -webkit-box-shadow: 0 0 10px #b6b2b2 !important;
+  line-height: 1.5;
+  background-color: #42ad2d !important;
+  color: white;
+}
+.btn-wizard-avancar:hover {
+  background-color: #397c2c;
+  color: #d4d4d4;
+  border-color: #1b6439;
+}
+.btn-wizard[disabled] {
+  color: #cccccc;
+}
+.estrutura-wizard-matricula {
+  padding: 0 !important;
+  margin: -10px -10px 0 -10px !important;
+}
+.panel-default {
+  border-color: transparent !important;
+}
