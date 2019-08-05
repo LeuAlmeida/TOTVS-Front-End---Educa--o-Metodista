@@ -98,6 +98,9 @@ div#certificado-de-relatorios {
     #centenario{background: url(../img/logos/centenario-b.png) no-repeat center;transition: 0.3s;background-size:  120px;width:auto;height: 100px;background-position-y: 18px;}
     #centenario:hover{background: url(../img/logos/centenario.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 10px;}
 
+    #ie{background: url(../img/logos/ie-b.png) no-repeat center;transition: 0.3s;background-size:  120px;width:auto;height: 100px;background-position-y: 10px;}
+#ie:hover{background: url(../img/logos/ie.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 10px;}
+
     #unimep{background: url(../img/logos/unimep-b.png) no-repeat center;transition: 0.3s;background-size: 120px;width:auto;height: 100px;background-position-y: 12px;}
     #unimep:hover{background: url(../img/logos/unimep.png) no-repeat center;background-size: 120px;width:auto;height: 100px;background-position-y: 4px;}
 
@@ -120,6 +123,9 @@ div#certificado-de-relatorios {
 @media only screen and (max-width: 991px) {
     #centenario{background: url(../img/logos/centenario-b.png) no-repeat center;transition: 0.3s;background-size:  80px;width:auto;height: 100px;background-position-y: 18px;}
     #centenario:hover{background: url(../img/logos/centenario.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 10px;}
+
+    #ie{background: url(../img/logos/ie-b.png) no-repeat center;transition: 0.3s;background-size:  80px;width:auto;height: 100px;background-position-y: 10px;}
+    #ie:hover{background: url(../img/logos/ie.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 10px;}
 
     #unimep{background: url(../img/logos/unimep-b.png) no-repeat center;transition: 0.3s;background-size: 80px;width:auto;height: 100px;background-position-y: 12px;}
     #unimep:hover{background: url(../img/logos/unimep.png) no-repeat center;background-size: 80px;width:auto;height: 100px;background-position-y: 4px;}
@@ -146,6 +152,7 @@ div#certificado-de-relatorios {
 @media only screen and (max-width: 767px) {
     #centenario{display: none;}
     #unimep{display: none;}
+    #ie{display: none;}
     #ipa{display: none;}
     #izabela{display: none;}
     #granbery{display: none;}
